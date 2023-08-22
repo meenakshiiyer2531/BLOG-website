@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=PT+Sans+Narrow:wght@400;700&family=Playfair+Display:ital,wght@1,500&display=swap");
+
+.max-width-1 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.max-width-2 {
+  max-width: 95vw;
+}
+.me-auto {
+  margin: auto;
+}
+.btn {
+}
+:root {
+  --main-bg-color: brown;
+  --font1: "Playfair", cursive;
+  --font2: "Caveat", regular;
+  --main-bg-color: brown;
+}
+.form-control {
+}
+.form-input {
+  padding: 2px;
+  font-size: 15px;
+  border: 1px solid black;
+  border-radius: 20px;
+  align-items: flex-start;
+  font-family: var(--font1);
+}
+.btn {
+  background-color: aqua;
+  font-size: 15px;
+  font-family: var(--font1);
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.btn:hover {
+  color: red;
+  background-color: pink;
+}
+.font1 {
+  font-family: var(--font1);
+}
+.font2 {
+  font-family: var(--font2);
+}
+.home-article{
+    display: flex;
+    padding: 50px;
+
+}
+.home-article-content{
+    padding-left: 20px;
+    align-self: center;
+}
+.home-article-img{
+
+}

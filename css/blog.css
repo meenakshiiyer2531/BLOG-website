@@ -1,0 +1,25 @@
+.post-img{
+    height: 404px;
+    overflow :hidden;
+}
+.post-img img{
+    width: 100%
+}
+.heading {
+color:blueviolet;
+align-self: center;
+height: 100px;
+padding-left: 320px;
+display: flex;
+padding-top: 10px;
+margin: auto;
+text-align: center;
+text-align-last: center;
+font-size: xxx-large;
+}
+.social-left{
+align-self: end;
+display: flex;
+text-align: center;
+margin-right: auto;
+}

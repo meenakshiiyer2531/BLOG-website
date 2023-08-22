@@ -1,0 +1,90 @@
+.navigation {
+  height: 74px;
+  background-color: crimson;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--font1);
+  size: 45px;
+}
+.content {
+  height: 50px;
+  /* background-color: blue; */
+}
+.footer {
+  height: 90px;
+  font-family: var(--font1);
+  /* background-color: pink; */
+}
+.footer img {
+  height: 350px;
+
+  display: flex;
+  align-items: flex-end;
+  padding-top: 40px;
+  padding-left: 120px;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.nav-left {
+  font-size: 20px;
+  display: flex;
+}
+.nav-left ul li {
+  list-style: none;
+  margin: 10px;
+  font-family: var(--font2);
+}
+.nav-left ul {
+  display: flex;
+  align-items: center;
+  margin: 12px;
+}
+.nav-left ul li a {
+  text-decoration: none;
+  color: black;
+}
+.nav-left ul li:hover {
+  color: red;
+  background: white;
+  border-radius: 15px;
+  padding: 5px;
+}
+.home-articles {
+  height: 455px;
+
+  margin: auto;
+  /* padding-top: 200px; */
+}
+.blogs {
+ 
+  height: 300px;
+  padding: 20px;
+}
+.footerr {
+  height: 50px;
+  background-color: blueviolet;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: aliceblue;
+}
+.head{
+   background-color: blueviolet;
+   /* content:"";
+   background-image: url('https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2021/09/how-to-write-a-blog-post.png');
+   opacity: 0.15;
+   position: absolute;
+   width: 100%;
+   height: inherit; */
+}
+.home-article-content a{
+    text-decoration: none;
+    color: black;
+}
+
+.content{
+    padding-top: 10px;
+}
